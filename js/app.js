@@ -40,7 +40,7 @@ let d = function checkPassword(password) {
   else if(input3.value == ""){
     output3.textContent == "";
   }
-  else output3.innerHTML = `<p>${output_title3}</p>`
+  else output3.innerHTML = `<p>${output_title3}</p>`;
 };
 
   // input1.addEventListener("change", (e) => {
@@ -63,4 +63,7 @@ btn.addEventListener("click",()=>{
   b()
   c()
   d()
+  input1.value = "";
+  input2.value = ""; 
+  input3.value = "";
 })
